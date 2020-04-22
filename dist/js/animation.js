@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded',() => {
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: '/takeaway/dist/assets/crown.json'
+        path: '/dist/assets/crown.json'
       })
 
       var animation = bodymovin.loadAnimation({
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded',() => {
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: '/takeaway/dist/assets/okay.json'
+        path: '/dist/assets/okay.json'
       })
 
       var animation = bodymovin.loadAnimation({
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded',() => {
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: '/takeaway/dist/assets/burger.json'
+        path: '/dist/assets/burger.json'
       })
 
       var animation = bodymovin.loadAnimation({
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded',() => {
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: '/takeaway/dist/assets/scooter.json'
+        path: '/dist/assets/scooter.json'
       })
 
       var animation = bodymovin.loadAnimation({
@@ -45,6 +45,6 @@ document.addEventListener('DOMContentLoaded',() => {
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: '/takeaway/dist/assets/location.json'
+        path: '/dist/assets/location.json'
       })
 })
