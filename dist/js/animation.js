@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded',() => {
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: '/takeaway/dist/assets/shop.json'
+        path: '/dist/assets/shop.json'
       })
 
       var animation = bodymovin.loadAnimation({
