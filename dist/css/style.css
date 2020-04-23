@@ -6,7 +6,10 @@
 html{
     line-height:1.15;
     -ms-text-size-adjust:100%;
-    -webkit-text-size-adjust:100%
+    -webkit-text-size-adjust:100%;
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 body{
     margin:0
@@ -89,7 +92,7 @@ svg:not(:root){
     overflow:hidden
 }
 button,input,optgroup,select,textarea{
-    font-family:sans-serif;
+   
     font-size:100%;
     line-height:1.15;
     margin:0
@@ -258,7 +261,7 @@ body{
     font-size:1rem
 }
 body,button,input,select,textarea{
-    font-family:"Lato", sans-serif
+
 }
 a{
     color:inherit;
@@ -271,7 +274,7 @@ a:hover,a:active{
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     clear:both;
     color:#202B36;
-    font-family:"PT Serif", serif;
+ 
     font-weight:700
 }
 h1,.h1{
@@ -407,7 +410,7 @@ address{
     margin:0 0 24px
 }
 pre,pre h1,pre h2,pre h3,pre h4,pre h5,pre h6,pre .h1,pre .h2,pre .h3,pre .h4,pre .h5,pre .h6{
-    font-family:"Courier 10 Pitch", Courier, monospace
+ 
 }
 pre,code,kbd,tt,var{
     background:#F6F8FA
