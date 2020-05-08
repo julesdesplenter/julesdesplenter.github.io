@@ -4,7 +4,10 @@ document.addEventListener('DOMContentLoaded',() => {
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: '/dist/assets/shop.json'
+        path: '/dist/assets/shop.json',
+        rendererSettings: {
+          viewBoxSize: 10
+        }
       })
 
       var animation = bodymovin.loadAnimation({
