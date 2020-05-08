@@ -15,7 +15,10 @@ document.addEventListener('DOMContentLoaded',() => {
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: '/dist/assets/crown.json'
+        path: '/dist/assets/crown.json',
+        rendererSettings: {
+          viewBoxSize: 10
+        }
       })
 
       var animation = bodymovin.loadAnimation({
@@ -23,7 +26,10 @@ document.addEventListener('DOMContentLoaded',() => {
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: '/dist/assets/okay.json'
+        path: '/dist/assets/okay.json',
+        rendererSettings: {
+          viewBoxSize: 10
+        }
       })
 
       var animation_burger = bodymovin.loadAnimation({

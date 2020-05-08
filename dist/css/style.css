@@ -570,7 +570,7 @@ button,input,select,textarea,label{
 .c-circle{
     z-index: 10;
     position: relative;
-    left: 2.3rem;
+    left: 2.7rem;
     top: 6.5rem;
     
 }
@@ -1050,7 +1050,8 @@ button,input,select,textarea,label{
     flex-wrap:wrap;
     justify-content:center;
     margin-right:-12px;
-    margin-left:-12px
+    margin-left:-12px;
+    margin-top: -100px;
 }
 .features-wrap:first-child{
     margin-top:-12px
