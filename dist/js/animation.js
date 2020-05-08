@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded',() => {
         container: document.getElementById('an-burger'),
         renderer: 'svg',
         loop: true,
-        autoplay: false,
+        autoplay: true,
         path: '/dist/assets/burger.json'
       })
 
